@@ -9,6 +9,9 @@ then
     else 
         echo ISOSCELES
     fi 
-else 
+elif [[ $y -eq $z ]]
+then
+    echo ISOSCELES
+else
     echo SCALENE
 fi
